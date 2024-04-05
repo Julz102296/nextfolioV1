@@ -27,7 +27,7 @@ export default function AboutMe() {
   const container = useRef(null);
   const { scrollYProgress } = useScroll({
     target: container,
-    offset: ['start end', 'start start']
+    offset: ["start end", "start start"]
   })
 
   const imageScale = useTransform(scrollYProgress, [0, 1], ["80%", "100%"]);
