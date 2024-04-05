@@ -2,6 +2,7 @@
 
 import React, { useRef } from 'react'
 import { motion, useInView, useScroll, useTransform } from 'framer-motion';
+import Image from 'next/image';
 
 export default function AboutMe() {
 
@@ -39,10 +40,11 @@ export default function AboutMe() {
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
           <div className="relative z-10 lg:py-16">
             <motion.div className="relative h-64 sm:h-80 lg:h-full" style={{scale: imageScale}}>
-              <img
+              <Image
                 alt=""
                 src="/Images/IMG_2231.JPG"
                 className="absolute inset-0 h-full w-full object-cover rounded-lg shadow-xl"
+                layout="fill"
               />
             </motion.div>
           </div>
