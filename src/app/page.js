@@ -5,7 +5,7 @@ import { useScroll } from "framer-motion";
 import Lenis from '@studio-freight/lenis';
 
 import Threedhero from "./customs/threedhero/Threedhero";
-
+import AboutMe from "./components/AboutMe";
 
 export default function Home() {
 
@@ -24,8 +24,9 @@ export default function Home() {
 
   return (
     <main>
-      <div>
-        <Threedhero/>
+      <div className="overflow-hidden">
+        <Threedhero />
+        <AboutMe />
       </div>
     </main>
   );
