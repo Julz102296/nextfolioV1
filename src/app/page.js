@@ -4,6 +4,8 @@ import { useEffect } from "react";
 import { useScroll } from "framer-motion";
 import Lenis from '@studio-freight/lenis';
 
+import Threedhero from "./customs/threedhero/Threedhero";
+
 
 export default function Home() {
 
@@ -23,7 +25,7 @@ export default function Home() {
   return (
     <main>
       <div className="h-500">
-        <h1>1111</h1>
+        <Threedhero/>
       </div>
     </main>
   );

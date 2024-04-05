@@ -1,0 +1,91 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: white;
+  justify-content: center; /* Center items horizontally #708090 */
+  align-items: center; /* Center items vertically */
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  transform-style: preserve-3d;
+
+}
+
+.hero-buttons {
+  margin-top: 20px; /* Add some margin if needed */
+}
+
+.textContainer {
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.4s;
+  transform-style: preserve-3d;
+}
+
+.textContainer p {
+  font-size: 8vw;
+  font-weight: 700;
+  margin: 0px;
+  transition: all 0.4s;
+  color: rgb(51 65 85);
+  line-height: 8vw;
+}
+
+.textContainer .secondary {
+  transform: rotateX(-90deg) translateY(3.5vw);
+  transform-origin: bottom center;
+  position: absolute;
+  top: 0;
+  color: rgb(148 163 184);
+  opacity: 0;
+}
+
+.textContainer:hover {
+  transform: rotateX(90deg);
+}
+
+.textContainer:hover .secondary {
+  opacity: 1;
+}
+
+.textContainer:hover .primary {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+
+/* Media Query for small screens */
+@media only screen and (max-width: 768px) {
+  .container {
+    height: 80vh; /* Adjust viewport height for smaller screens */
+  }
+
+  .body {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+
+  .textContainer p {
+    font-size: 10vw;
+    line-height: 10vw;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .container {
+    height: 60vh; /* Further adjust viewport height for smaller screens */
+  }
+
+  /* .body {
+    margin-top: 30px;
+    margin-left: 10px;
+  }*/
+
+  .textContainer p {
+    font-size: 8vw;
+    line-height: 8vw;
+  }
+}
