@@ -2,7 +2,7 @@ import Text3d from '../../components/Text3d';
 import styles from './Home.module.css';
 import { useRef } from 'react';
 
-export default function threedhero() {
+export default function Threedhero() {
 
   const plane = useRef(null);
   const maxRotate = 45;
