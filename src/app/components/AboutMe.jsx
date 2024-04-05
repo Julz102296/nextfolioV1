@@ -43,8 +43,9 @@ export default function AboutMe() {
               <Image
                 alt=""
                 src="/Images/IMG_2231.JPG"
+                width={500}
+                height={500}
                 className="absolute inset-0 h-full w-full object-cover rounded-lg shadow-xl"
-                layout="fill"
               />
             </motion.div>
           </div>
@@ -62,55 +63,55 @@ export default function AboutMe() {
                 I'm Julios Sagadal, a passionate Full Stack Web Developer hailing from Rizal. Graduated from the Polytechnic University of the Philippines in 2020 laid the groundwork for my journey. In 2024, I took a leap into the dynamic world of Full Stack Web Development at KodeGo Bootcamp. Beyond coding, I thrive on creative problem-solving, crafting efficient and innovative web solutions. Let's collaborate and explore the endless possibilities of web development together.
                 </motion.p>
 
-              <div className="mt-8 flex flex-wrap justify-center gap-4">
-              <a
-  className="group relative inline-flex items-center overflow-hidden rounded bg-slate-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-slate-500"
-  href="#"
->
-  <span className="absolute -start-full transition-all group-hover:start-4">
-    <svg
-      className="size-5 rtl:rotate-180"
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="2"
-        d="M17 8l4 4m0 0l-4 4m4-4H3"
-      />
-    </svg>
-  </span>
+                <div className="mt-8 flex flex-wrap justify-center gap-4">
+                  <a
+                    className="group relative inline-flex items-center overflow-hidden rounded bg-slate-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-slate-500"
+                    href="#"
+                  >
+                    <span className="absolute -start-full transition-all group-hover:start-4">
+                      <svg
+                        className="size-5 rtl:rotate-180"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M17 8l4 4m0 0l-4 4m4-4H3"
+                        />
+                      </svg>
+                    </span>
 
-  <span className="text-sm font-medium transition-all group-hover:ms-4"> Contact </span>
-</a>
+                    <span className="text-sm font-medium transition-all group-hover:ms-4"> Contact </span>
+                  </a>
 
-<a
-  className="group relative inline-flex items-center overflow-hidden px-8 py-3 text-slate-600 focus:outline-none focus:ring active:text-slate-400"
-  href="#"
->
-  <span className="absolute -end-full transition-all group-hover:end-4">
-    <svg
-      className="size-5 rtl:rotate-180"
-      xmlns="http://www.w3.org/2000/svg"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-    >
-      <path
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="2"
-        d="M17 8l4 4m0 0l-4 4m4-4H3"
-      />
-    </svg>
-  </span>
-  <span className="text-sm mx-5 font-medium transition-all group-hover:me-4"> Download Cv </span>
-</a>
+                  <a
+                    className="group relative inline-flex items-center overflow-hidden px-8 py-3 text-slate-600 focus:outline-none focus:ring active:text-slate-400"
+                    href="#"
+                  >
+                    <span className="absolute -end-full transition-all group-hover:end-4">
+                      <svg
+                        className="size-5 rtl:rotate-180"
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M17 8l4 4m0 0l-4 4m4-4H3"
+                        />
+                      </svg>
+                    </span>
+                    <span className="text-sm mx-5 font-medium transition-all group-hover:me-4"> Download Cv </span>
+                  </a>
+                </div>
 
-              </div>
             </div>
           </div>
         </div>
