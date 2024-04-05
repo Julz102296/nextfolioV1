@@ -4,6 +4,7 @@
   display: flex;
   background-color: white;
   justify-content: center; /* Center items horizontally #708090 */
+  position: relative; 
   align-items: center; /* Center items vertically */
 }
 
@@ -55,6 +56,33 @@
 .textContainer:hover .primary {
   transform: translateY(-100%);
   opacity: 0;
+}
+
+.svgContainer {
+  position: absolute; /* Set the SVG container position to absolute */
+  bottom: -30px; /* Align the SVG container to the bottom of the parent container */
+  left: 50%; /* Adjust the horizontal alignment of the SVG container */
+  transform: translateX(-50%); /* Center the SVG container horizontally */
+}
+
+.svgContainer svg {
+  fill: var(--gray-80);
+  position: bottom;
+}
+
+
+.svgContainer svg {
+  animation: 5s cubic-bezier(.85,-0.16,.24,1.23) infinite point-down;
+}
+
+@keyframes point-down {
+  0%, 10%, 40% , 100%{
+    transform: translate3d(0, 0, 0);
+  }
+
+  25% {
+    transform: translate3d(0, 1rem, 0);
+  }
 }
 
 /* Media Query for small screens */
