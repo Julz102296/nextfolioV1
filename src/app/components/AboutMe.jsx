@@ -36,23 +36,23 @@ export default function AboutMe() {
 
   return (
     <section ref={container}> 
-      <div className="mx-auto max-w-screen-2xl px-4 py-16 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-screen-2xl px-4 py-10 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
           <div className="relative z-10 lg:py-16">
-            <motion.div className="relative h-64 sm:h-80 lg:h-full" style={{scale: imageScale}}>
+            <motion.div className="relative h-60 sm:h-80 lg:h-full" style={{scale: imageScale}}>
               <Image
                 alt=""
                 src="/Images/IMG_2231.JPG"
-                width={500}
-                height={500}
-                className="absolute inset-0 h-full w-full object-cover rounded-lg shadow-xl"
+                width={1200}
+                height={1200}
+                className="absolute inset-0 h-full w-full object-cover rounded-2xl shadow-4xl"
               />
             </motion.div>
           </div>
 
-          <div className="relative flex items-center bg-slate-300">
+          <div className="relative flex items-center">
             <span
-              className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16 lg:bg-slate-300"
+              className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16"
             ></span>
 
             <div ref={description} className="p-8 sm:p-16 lg:p-24">

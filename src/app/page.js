@@ -6,6 +6,7 @@ import Lenis from '@studio-freight/lenis';
 
 import Threedhero from "./customs/threedhero/Threedhero";
 import AboutMe from "./components/AboutMe";
+import ParallaxSchool from "./customs/ParallaxSchool/ParallaxSchool";
 
 export default function Home() {
 
@@ -26,7 +27,8 @@ export default function Home() {
     <main>
       <div className="overflow-hidden">
         <Threedhero />
-        <AboutMe />
+        <AboutMe className="overflow-hidden" />
+        <ParallaxSchool />
       </div>
     </main>
   );
