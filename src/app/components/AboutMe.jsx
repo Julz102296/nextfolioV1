@@ -30,9 +30,8 @@ export default function AboutMe() {
     offset: ["start end", "start start"]
   })
 
-  const imageScale = useTransform(scrollYProgress, [0, 1], ["80%", "100%"]);
+  const imageScale = useTransform(scrollYProgress, [0, 1], ["50%", "70%"]);
   const textScale = useTransform(scrollYProgress, [0, 1], ["50%", "100%"]);
-
 
   return (
     <section ref={container}> 
@@ -59,8 +58,8 @@ export default function AboutMe() {
               <motion.p className="text-3xl font-extrabold sm:text-5xl text-slate-700" style={{scale: textScale}} variants={slideUp}>
                 About Me
               </motion.p>
-                <motion.p variants={slideUp} animate={isInView ? "open" : "closed"} className="mt-4 text-slate-700">
-                I'm Julios Sagadal, a passionate Full Stack Web Developer hailing from Rizal. Graduated from the Polytechnic University of the Philippines in 2020 laid the groundwork for my journey. In 2024, I took a leap into the dynamic world of Full Stack Web Development at KodeGo Bootcamp. Beyond coding, I thrive on creative problem-solving, crafting efficient and innovative web solutions. Let's collaborate and explore the endless possibilities of web development together.
+                <motion.p className="mt-4 text-slate-700">
+                I'm Julios Sagadal, a passionate Full Stack Web Developer hailing from Rizal. Graduated from the Polytechnic University of the Philippines in 2020 laid the groundwork for my journey. In 2024, I took a leap into the dynamic world of Full Stack Web Development. Beyond coding, I thrive on creative problem-solving, crafting efficient and innovative web solutions. Let's collaborate and explore the endless possibilities of web development together.
                 </motion.p>
 
                 <div className="mt-8 flex flex-wrap justify-center gap-4">
