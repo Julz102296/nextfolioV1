@@ -19,7 +19,7 @@ export default function Stack() {
     <section ref={container} className="mb-10 items-center justify-center">
     <motion.div
         style={{ x: yText }}
-        className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
+        className="text-3xl font-extrabold sm:text-5xl text-slate-700"
     >
         My Work Experience
     </motion.div>

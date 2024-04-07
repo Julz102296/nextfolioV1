@@ -6,9 +6,10 @@ import Lenis from '@studio-freight/lenis';
 
 import Threedhero from "./customs/threedhero/Threedhero";
 import AboutMe from "./components/AboutMe";
-import Parallax from "./components/Parallax";
 import Stack from "./components/Stack";
 import Work from "./components/Work";
+import Rotating from "./components/Rotating";
+import Portfolio from "./components/Portfolio";
 
 export default function Home() {
 
@@ -33,6 +34,8 @@ export default function Home() {
         {/* <Parallax /> */}
         <Stack />
         <Work />
+        <Rotating scrollYProgress={scrollYProgress} />
+        <Portfolio />
       </div>
     </main>
   );
