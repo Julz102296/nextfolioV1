@@ -3,6 +3,9 @@
 import React, { useRef } from 'react'
 import { motion, useInView, useScroll, useTransform } from 'framer-motion';
 import Image from 'next/image';
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaGithubSquare } from "react-icons/fa";
 
 export default function AboutMe() {
 
@@ -34,7 +37,7 @@ export default function AboutMe() {
   const textScale = useTransform(scrollYProgress, [0, 1], ["50%", "100%"]);
 
   return (
-    <section ref={container}> 
+    <section ref={container}>
       <div className="mx-auto max-w-screen-2xl px-4 py-10 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
           <div className="relative z-10 lg:py-16">
@@ -48,6 +51,7 @@ export default function AboutMe() {
               />
             </motion.div>
           </div>
+
 
           <div className="relative flex items-center">
             <span
@@ -109,6 +113,20 @@ export default function AboutMe() {
                     </span>
                     <span className="text-sm mx-5 font-medium transition-all group-hover:me-4"> Download Cv </span>
                   </a>
+                </div>
+
+                <div className="flex flex-1 items-center justify-center md:justify-center mt-10">
+                  <ul className="flex items-center gap-6 text-sm text-slate-700">
+                    <li>
+                      <a href="https://www.facebook.com/julios.sagadal/"><FaFacebookSquare className="h-6 w-6 text-slate-600"/></a>
+                    </li>
+                    <li>
+                      <a href="https://www.linkedin.com/in/julios-sagadal-621038256/"><FaLinkedin className="h-6 w-6 text-slate-600"/></a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/Julz102296"><FaGithubSquare className="h-6 w-6 text-slate-600"/></a>
+                    </li>
+                  </ul>
                 </div>
 
             </div>

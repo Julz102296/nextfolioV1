@@ -8,7 +8,7 @@ export default function Portfolio() {
     {
       id: 1,
       title: "Game Center",
-      desc: "Game Center specializes in dynamic static websites, featuring a download game page and personalized user dashboards. Our expertise lies in crafting user-centric designs, seamless game integration, and impactful digital experiences.",
+      desc: "Discover endless gaming possibilities at Game Center. With a sleek carousel game menu, easy login, and signup, accessing your favorite games is a breeze. Download your picks swiftly from our dedicated page and dive into the action. Your gaming journey is personalized with a user dashboard, putting control in your hands. Join Game Center and elevate your gaming experience today!",
       video: "videos/video1.webm",
       link: "https://julz102296.github.io/game_center.2.0.github.io/",
     },
@@ -38,7 +38,7 @@ export default function Portfolio() {
   const ref = useRef();
 
   return (
-    <div ref={ref} className="mx-auto max-w-screen-xl px-4 pb-8 lg:pb-12 space-y-8">
+    <div ref={ref} className="mx-auto mb-10 max-w-screen-xl px-4 pb-8 lg:pb-12 space-y-8">
       <ul className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
       {items.map((item) => (
         <li key={item.id}>
@@ -61,7 +61,7 @@ export default function Portfolio() {
               </a>
 
               <p className="mt-2 text-sm/relaxed text-slate-600">
-                {/* {item.desc} */}
+                {item.desc}
               </p>
             </div>
             </div>

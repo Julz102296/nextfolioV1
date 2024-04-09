@@ -10,6 +10,9 @@ import Stack from "./components/Stack";
 import Work from "./components/Work";
 import Rotating from "./components/Rotating";
 import Portfolio from "./components/Portfolio";
+import Extra from "./components/Extra";
+import Contact from "./components/Contact";
+import Stack2 from "./components/Stack2";
 
 export default function Home() {
 
@@ -36,6 +39,9 @@ export default function Home() {
         <Work />
         <Rotating scrollYProgress={scrollYProgress} />
         <Portfolio />
+        <Extra />
+        <Stack2 />
+        <Contact />
       </div>
     </main>
   );
