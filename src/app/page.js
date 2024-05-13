@@ -13,6 +13,8 @@ import Portfolio from "./components/Portfolio";
 import Extra from "./components/Extra";
 import Contact from "./components/Contact";
 import Stack2 from "./components/Stack2";
+import Portfoliooo from "./customs/porjects/Portfoliooo";
+import BackToTopButton from "./customs/backtotop/BackToTopButton";
 
 export default function Home() {
 
@@ -32,14 +34,16 @@ export default function Home() {
   return (
     <main>
       <div className="overflow-hidden">
+        {/* <BackToTopButton className="overflow-hidden"/> */}
         <Threedhero />
         <AboutMe />
         {/* <Parallax /> */}
         <Stack />
         <Work />
         <Rotating scrollYProgress={scrollYProgress} />
-        <Portfolio />
-        <Extra />
+        <Portfoliooo />
+        {/* <Portfolio /> */}
+        {/* <Extra /> */}
         <Stack2 />
         <Contact />
       </div>

@@ -38,7 +38,8 @@ export default function Portfolio() {
   const ref = useRef();
 
   return (
-    <div ref={ref} className="mx-auto mb-10 max-w-screen-xl px-4 pb-8 lg:pb-12 space-y-8">
+    <div ref={ref} className="mx-auto mt-10 mb-10 max-w-screen-xl px-4 pb-8 lg:pb-12 space-y-8">
+      <p className="text-3xl font-extrabold sm:text-5xl text-slate-700">Wed Development</p>
       <ul className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-4">
       {items.map((item) => (
         <li key={item.id}>

@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+body {
+  overflow: hidden; /* Hide scrollbar from the entire page */
+}
+
 /* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

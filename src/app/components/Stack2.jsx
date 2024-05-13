@@ -16,7 +16,7 @@ export default function Stack2() {
 
 
   return (
-    <section ref={container} className="mt-10 mb-10 items-center justify-center">
+    <section ref={container} className="mt-20 mb-10 items-center justify-center">
     <motion.div
         style={{ x: yText }}
         className="text-3xl font-extrabold sm:text-5xl text-slate-700"

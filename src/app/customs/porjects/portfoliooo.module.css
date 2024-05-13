@@ -1,0 +1,34 @@
+/* portfoliooo.module.css */
+
+.container {
+  /* Add styles for the container div */
+  /* For example: */
+  background-color: white;
+  padding: 20px;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.pdfEmbed {
+  /* Add styles for the embedded PDF */
+  /* For example: */
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  scrollbar-width: none; /* Hide scrollbars in Firefox */
+  -ms-overflow-style: none; /* Hide scrollbars in Internet Explorer and Edge */
+  scroll-behavior: smooth;
+}
+
+.mobileResponsive {
+  height: 100%;
+  width: 100%; /* Make the iframe fill the height of its container */
+}
+
+@media (max-width: 768px) {
+  /* Adjust dimensions for smaller screens */
+  .pdfEmbed {
+    width: 100%; /* Adjust width for smaller screens */
+    height: 600px; /* Adjust height for smaller screens */
+  }
+}

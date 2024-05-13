@@ -6,6 +6,7 @@ import Image from 'next/image';
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 import { FaGithubSquare } from "react-icons/fa";
+import { FaBehanceSquare } from "react-icons/fa";
 
 export default function AboutMe() {
 
@@ -58,6 +59,10 @@ export default function AboutMe() {
               className="hidden lg:absolute lg:inset-y-0 lg:-start-16 lg:block lg:w-16"
             ></span>
 
+            {/* <div>
+              <embed src="/pdf/portfolio_v2.pdf" type="" width={1000} height={1000}/>
+            </div> */}
+
             <div ref={description} className="p-8 sm:p-16 lg:p-24">
               <motion.p className="text-3xl font-extrabold sm:text-5xl text-slate-700" style={{scale: textScale}} variants={slideUp}>
                 About Me
@@ -66,10 +71,10 @@ export default function AboutMe() {
                 I'm Julios Sagadal, a passionate Full Stack Web Developer hailing from Rizal. Graduated from the Polytechnic University of the Philippines in 2020 laid the groundwork for my journey. In 2024, I took a leap into the dynamic world of Full Stack Web Development. Beyond coding, I thrive on creative problem-solving, crafting efficient and innovative web solutions. Let's collaborate and explore the endless possibilities of web development together.
                 </motion.p>
 
-                <div className="mt-8 flex flex-wrap justify-center gap-4">
+                <div href="#contact" className="mt-8 flex flex-wrap justify-center gap-4">
                   <a
                     className="group relative inline-flex items-center overflow-hidden rounded bg-slate-600 px-8 py-3 text-white focus:outline-none focus:ring active:bg-slate-500"
-                    href="#"
+                    href="#contact"
                   >
                     <span className="absolute -start-full transition-all group-hover:start-4">
                       <svg
@@ -93,7 +98,8 @@ export default function AboutMe() {
 
                   <a
                     className="group relative inline-flex items-center overflow-hidden px-8 py-3 text-slate-600 focus:outline-none focus:ring active:text-slate-400"
-                    href="#"
+                    href="/pdf/Julios_Sagadal-CV.pdf"
+                    download
                   >
                     <span className="absolute -end-full transition-all group-hover:end-4">
                       <svg
@@ -111,7 +117,11 @@ export default function AboutMe() {
                         />
                       </svg>
                     </span>
-                    <span className="text-sm mx-5 font-medium transition-all group-hover:me-4"> Download Cv </span>
+                    <span className="text-sm mx-5 font-medium transition-all group-hover:me-4"> Download CV
+                    {/* <a className="text-sm mx-5 font-medium transition-all group-hover:me-4">
+                      Download CV
+                    </a> */}
+                    </span>
                   </a>
                 </div>
 
@@ -125,6 +135,9 @@ export default function AboutMe() {
                     </li>
                     <li>
                       <a href="https://github.com/Julz102296"><FaGithubSquare className="h-6 w-6 text-slate-600"/></a>
+                    </li>
+                    <li>
+                      <a href="https://www.behance.net/juliossagadal"><FaBehanceSquare className="h-6 w-6 text-slate-600"/></a>
                     </li>
                   </ul>
                 </div>
