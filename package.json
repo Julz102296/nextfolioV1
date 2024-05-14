@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@cloudpdf/viewer": "^1.0.5",
     "@emailjs/browser": "^4.3.3",
     "@studio-freight/lenis": "^1.0.42",
     "framer-motion": "^11.0.25",

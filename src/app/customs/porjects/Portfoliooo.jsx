@@ -1,12 +1,21 @@
-import React from 'react';
 import styles from './portfoliooo.module.css';
+import React, { useRef, useEffect } from "react";
+import CloudPdfViewer from "@cloudpdf/viewer";
 
-function Portfoliooo() {
+export default function Portfoliooo() {
+  const viewer = useRef(null);
+  useEffect(() => {
+    CloudPdfViewer(
+      {
+        documentId: "de53704d-8ff7-4429-968a-eee5ee0ce560",
+        darkMode: false
+      },
+      viewer.current
+    ).then((instance) => {});
+  }, []);
   return (
-    <div className={`${styles.container} flex justify-center items-center h-screen overflow-hidden`}>
-      <iframe src="/pdf/portfolio_v22_compressed.pdf" className={`${styles.pdfEmbed} ${styles.mobileResponsive}`} title="Embedded PDF"></iframe>
+    <div className={styles.app}>
+      <div className={styles.viewer} ref={viewer}></div>
     </div>
   );
 }
-
-export default Portfoliooo;
