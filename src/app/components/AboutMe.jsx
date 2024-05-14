@@ -67,8 +67,11 @@ export default function AboutMe() {
               <motion.p className="text-3xl font-extrabold sm:text-5xl text-slate-700" style={{scale: textScale}} variants={slideUp}>
                 About Me
               </motion.p>
-                <motion.p className="mt-4 text-slate-700">
+                {/* <motion.p className="mt-4 text-slate-700">
                 I'm Julios Sagadal, a passionate Full Stack Web Developer hailing from Rizal. Graduated from the Polytechnic University of the Philippines in 2020 laid the groundwork for my journey. In 2024, I took a leap into the dynamic world of Full Stack Web Development. Beyond coding, I thrive on creative problem-solving, crafting efficient and innovative web solutions. Let's collaborate and explore the endless possibilities of web development together.
+                </motion.p> */}
+                <motion.p className="mt-4 text-slate-700">
+                  Simpleng Pogi, tsaka na to wala pa ko maisip e
                 </motion.p>
 
                 <div href="#contact" className="mt-8 flex flex-wrap justify-center gap-4">
