@@ -107,7 +107,7 @@ export default function AboutMe() {
 
                   <a
                     className="group relative inline-flex items-center overflow-hidden px-8 py-3 text-slate-600 focus:outline-none focus:ring active:text-slate-400"
-                    href="/pdf/Julio_SagadalCV_2024_compressed.pdf"
+                    href="/pdf/CV_JuliosSagadal2024_compressed.pdf"
                     download
                   >
                     <span className="absolute -end-full transition-all group-hover:end-4">
