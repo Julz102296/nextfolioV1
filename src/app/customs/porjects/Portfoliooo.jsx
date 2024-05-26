@@ -7,7 +7,7 @@ export default function Portfoliooo() {
   useEffect(() => {
     CloudPdfViewer(
       {
-        documentId: "de53704d-8ff7-4429-968a-eee5ee0ce560",
+        documentId: "5b9992b3-f46a-45db-b6bc-420c48e79d34",
         darkMode: false
       },
       viewer.current

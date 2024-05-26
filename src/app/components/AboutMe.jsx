@@ -70,8 +70,14 @@ export default function AboutMe() {
                 {/* <motion.p className="mt-4 text-slate-700">
                 I'm Julios Sagadal, a passionate Full Stack Web Developer hailing from Rizal. Graduated from the Polytechnic University of the Philippines in 2020 laid the groundwork for my journey. In 2024, I took a leap into the dynamic world of Full Stack Web Development. Beyond coding, I thrive on creative problem-solving, crafting efficient and innovative web solutions. Let's collaborate and explore the endless possibilities of web development together.
                 </motion.p> */}
-                <motion.p className="mt-4 text-slate-700">
-                  Simpleng Pogi, tsaka na to wala pa ko maisip e
+                <motion.p className="mt-4 text-slate-700 justify-center justify-self-center">
+                Hi, I'm Julios Sagadal, a 27-year-old graphic designer and front-end developer. I hold a Bachelor of Science in Information Technology from PUP San Juan. My passion lies in creating stunning logo designs, innovative layout designs, and captivating web designs.
+                </motion.p>
+                <motion.p className="mt-4 text-slate-700 justify-center justify-self-center">
+                With a strong foundation in both graphic design and front-end development, I aspire to merge these skills to craft sleek and visually compelling websites. I believe that great design is not just about aesthetics but also about delivering an engaging user experience.
+                </motion.p>
+                <motion.p className="mt-4 text-slate-700 justify-center justify-self-center">
+                I hope to join a company where I can master my skills, continuously exploring new techniques and trends to enhance my craft. I look forward to the day when I can fully integrate my design and development skills to produce seamless, dynamic digital experiences.
                 </motion.p>
 
                 <div href="#contact" className="mt-8 flex flex-wrap justify-center gap-4">
