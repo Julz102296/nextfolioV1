@@ -6,15 +6,6 @@ export default function Work() {
 
   const works = [
     {
-      id: 1,
-      title: "Wilcon",
-      job: "Data Encoder",
-      desc: "Local Government",
-      img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-      yearStart: "July 2023",
-      yearEnd: "October 2023",
-    },
-    {
       id: 2,
       title: "City Government of San Juan",
       job: "Traffic Aide - Radio Operator",
