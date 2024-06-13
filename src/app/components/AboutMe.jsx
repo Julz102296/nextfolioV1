@@ -41,11 +41,11 @@ export default function AboutMe() {
     <section ref={container}>
       <div className="mx-auto max-w-screen-2xl px-4 py-10 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:h-screen lg:grid-cols-2">
-          <div className="relative z-10 lg:py-16">
+          <div className="relative z-10">
             <motion.div className="relative h-60 sm:h-80 lg:h-full" style={{scale: imageScale}}>
               <Image
                 alt=""
-                src="/Images/IMG_2231.JPG"
+                src="/Images/dp.jpg"
                 width={1200}
                 height={1200}
                 className="absolute inset-0 h-full w-full object-cover rounded-2xl shadow-4xl"
@@ -71,14 +71,11 @@ export default function AboutMe() {
                 I'm Julios Sagadal, a passionate Full Stack Web Developer hailing from Rizal. Graduated from the Polytechnic University of the Philippines in 2020 laid the groundwork for my journey. In 2024, I took a leap into the dynamic world of Full Stack Web Development. Beyond coding, I thrive on creative problem-solving, crafting efficient and innovative web solutions. Let's collaborate and explore the endless possibilities of web development together.
                 </motion.p> */}
                 <motion.p className="mt-4 text-slate-700 justify-center justify-self-center">
-                Hi, I'm Julios Sagadal, a 27-year-old graphic designer and front-end developer. I hold a Bachelor of Science in Information Technology from PUP San Juan. My passion lies in creating stunning logo designs, innovative layout designs, and captivating web designs.
-                </motion.p>
+                I am Julios Ajoc Sagadal, a dedicated public service professional with seven years of experience working for the City Government of San Juan.                </motion.p>
                 <motion.p className="mt-4 text-slate-700 justify-center justify-self-center">
-                With a strong foundation in both graphic design and front-end development, I aspire to merge these skills to craft sleek and visually compelling websites. I believe that great design is not just about aesthetics but also about delivering an engaging user experience.
-                </motion.p>
+                I have a strong foundation in traffic management and operations, coupled with a diverse skill set in graphic design and front-end web development. Proficient in Adobe Photoshop, Illustrator, HTML, CSS, and ReactJS, I am passionate about creating impactful designs and user-friendly web applications.                </motion.p>
                 <motion.p className="mt-4 text-slate-700 justify-center justify-self-center">
-                I hope to join a company where I can master my skills, continuously exploring new techniques and trends to enhance my craft. I look forward to the day when I can fully integrate my design and development skills to produce seamless, dynamic digital experiences.
-                </motion.p>
+                My background in public service has honed my ability to communicate effectively, manage projects, and provide excellent customer service. I am eager to leverage my skills and experience in a dynamic new role.                </motion.p>
 
                 <div href="#contact" className="mt-8 flex flex-wrap justify-center gap-4">
                   <a
